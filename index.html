@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utility.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="body-index">
+    <!-- Navbar Section -->
+    <header>
+      <nav class="navbar bg-primary">
+        <div class="title">
+            <h1>E<span class="title-span">Y</span>AL</h1>
+        </div>
+        <ul class="navbar-list">
+          <li><a href="./index.html" class="active">HOME</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./protfolio.html">PORTFOLIO</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="main-page" >
+      <div class="headline">
+        <h1 class="white-color big">Eyal Ilan</h1>
+        <h2 class="white-color medium">
+          Full Stack Developer <i class="fas fa-laptop-code"></i>
+        </h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image:url(./images/1.png)"></div>
+              <div class="swiper-slide" style="background-image:url(./images/2.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./images/3.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./images/4.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./images/5.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./images/6.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./images/7.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./images/8.png)"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+   
+    </section>
+  
+   
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'cube',
+          grabCursor: true,
+          cubeEffect: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+  </body>
+</html>

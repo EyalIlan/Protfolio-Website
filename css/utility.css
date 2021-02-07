@@ -1,0 +1,135 @@
+.primary-color{
+    color: rgb(66, 66, 216);
+}
+
+.bg-primary{
+    background-color: rgb(66, 66, 216);
+}
+
+.bg-black{
+    background-color: black;
+}
+
+
+.secondary-color{
+   color: rgb(68, 68, 117);
+}
+
+.white-color{
+    color: white;
+    
+}
+.black-color{
+    color: black;
+    background-color: white;
+}
+
+
+.links-size{
+    font-size: 20px;
+}
+
+.big{
+    font-size: 100px;
+    padding-bottom: 30px;
+}
+
+.medium{
+    font-size: 50px;
+}
+
+
+
+.btn{
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 30px;
+    display: block;
+    padding: 20px;
+    background-color: white;
+    color: black;
+   width: 35%;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.btn:active{
+   transform: scale(0.98);
+}
+
+
+
+
+.bar{
+    margin: 20px 0;
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow:hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #e90707;
+}
+
+.html{
+    width: 90%;
+    animation: html 9s;
+}
+.css{
+    width: 60%;
+    animation: css 9s;
+}
+.javascript{
+    width: 80%;
+    animation: javascript 9s;
+}
+
+
+@keyframes html{
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+}
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 60%;
+    }
+}
+@keyframes javascript{
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+.form{
+    border: 3px solid blue;
+    height: 70%;
+    margin: auto;
+}
+
+
+
+.msg textarea{
+    height: 212px;
+}
+
+::-webkit-input-placeholder{
+    color: #c5ecfd;
+}
